@@ -1,0 +1,27 @@
+.navbar-dark {
+    color:white;
+    border: 1px solid rgba(138, 21, 56, 1);
+    border-radius: 6px;
+    background: #fff;
+    fill: #454545;
+}
+
+.navbar-brand, .nav-link, .dropdown-item {
+    color: #0a0a0a; /* White text */
+}
+
+.navbar-brand:hover, .nav-link:hover, .dropdown-item:hover {
+    color: #51504e; /* Gold color on hover */
+}
+
+.submit-primary{
+    background: rgba(138, 21, 56, 1);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+
+}
+
+
+

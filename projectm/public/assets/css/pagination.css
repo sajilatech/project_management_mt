@@ -1,0 +1,55 @@
+/* Styling for pagination component */
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.page-item {
+    margin: 0 5px;
+}
+
+.page-link {
+    color:rgba(138, 21, 56, 1); /* Bootstrap primary color */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 6px 12px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: rgba(138, 21, 56, 1);
+    border-color: rgba(138, 21, 56, 1);
+}
+
+.page-item.active .page-link {
+    background-color: rgba(138, 21, 56, 1);
+    border-color: rgba(138, 21, 56, 1);
+    color: #fff;
+}
+
+.page-item.disabled .page-link {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #00060b;
+}
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    border-radius: 50%;
+}
+
+.page-item.disabled .page-link,
+.page-item.active .page-link {
+    pointer-events: none;
+}
+
+@media (max-width: 576px) {
+    .page-link {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}

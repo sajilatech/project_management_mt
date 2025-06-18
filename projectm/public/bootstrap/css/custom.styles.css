@@ -1,0 +1,15 @@
+.w-inherit {
+	width: inherit !important;
+}
+
+hr.h-break {
+    margin: 0 0 15px !important;
+}
+
+label.label-with-btn {
+	border: none !important;
+    border-bottom: 1px solid #ccc !important;
+	color: #333 !important;
+    font-weight: 700 !important;
+    padding-left: 0px !important;
+}

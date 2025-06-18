@@ -1,0 +1,199 @@
+
+@import url('animate.css');
+@import url('../fonts/flat-icon.css');
+@import url('https://cdn.lineicons.com/3.0/lineicons.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,700;6..96,900&display=swap');
+
+/* CSS Document */
+
+html,
+body {
+overflow-x: hidden;
+}
+body {font-family: 'Inter', sans-serif;
+float: left;
+width: 100%;padding-top: 60px;
+color: #000;font-weight: 400;
+background-attachment: fixed; background-size: 40%;
+padding-right: 0 !important;
+       -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+
+}
+.modal-open {
+padding-right: 0!important;
+overflow: hidden;
+}
+::-moz-selection {
+/* Code for Firefox */
+color: #000;
+background: #d7c07f;
+}
+::selection {
+color: #000;
+background: #d7c07f;
+}
+
+.btn{ box-shadow: none; outline: none;}
+button{ box-shadow: none; outline: none;}
+
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+color: #000;  
+}
+
+h2{ }
+p {
+color: #000;
+line-height: 23px;
+font-size: 15px; font-weight: 400;-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+a{text-decoration: none;}
+a:hover{color: #0e2c18;}
+ul li,
+ul li a,
+ol li,
+ol li a {
+color: #161616;
+font-size: 15px; font-weight: 300;
+line-height: 26px;text-decoration: none;
+}
+a:hover,
+a:focus {
+text-decoration: none;
+outline: none;
+}
+:focus {
+outline: none;
+}
+.no-padding {
+padding: 0px;
+}
+.text-left {
+text-align: left !important;
+}
+.mob-only {
+display: none;
+}
+.desktop-only {
+display: block;
+}
+.layout {
+width: 100%;
+background: #fff; 
+
+overflow: hidden;
+margin: 0 auto;
+max-width: 100%;
+box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.desktop {
+display: block;
+}
+.mob-view {
+display: none;
+}
+
+.margin-auto{margin: auto; float: none;}
+.full-width{width: 100% !important;}
+
+.navbar-brand img{max-width: 150px;}
+
+.sidebar{height:100%;float: left;background: #fff;padding: 0px 10px;}
+.sidebar ul li{margin-bottom: 3px;margin-top: 3px;}
+.sidebar ul li a{padding:10px 5px; float: left;border: 1px solid #fff;width: 100%;font-size: 14px; font-weight: 400;}
+.sidebar ul li .lni{float: right;margin-top: 5px;}
+.sidebar ul li a:hover{color: #fff;border: 1px solid rgb(20, 123, 225); border-radius: 6px;background:rgb(20, 123, 225);fill: rgb(20, 123, 225);}
+.sidebar ul li a.active{color: #fff;border: 1px solid rgb(20, 123, 225); border-radius: 6px;background:rgb(20, 123, 225);fill: rgb(20, 123, 225);}
+.sidebar ul li a:hover svg{}
+.sidebar .icons{margin-right: 10px;}
+.my-acc a{color: #000;}
+.my-acc a:hover{color: rgb(20, 123, 225);}
+
+.page-body{background: #efefef;height: 100%; float: left;width: 100%;padding: 2em;}
+
+.page-head{width: 100%;float: left;}
+.page-head h2{font-size: 24px; text-transform: capitalize;font-weight: bold;}
+.page-head .btns{background: rgb(20, 123, 225); color: #fff;padding: 10px 20px;border-radius: 8px; font-weight: 600;}
+.page-head .btns i{margin-right: 10px; }
+
+.top-filter{background: #fff; margin: 10px 0px;border-radius: 8px;float: left;width: 100%;padding: 2em;}
+.top-filter select{width: 100%; float: left;padding: 10px; font-size: 13px;}
+.select2-container--default .select2-selection--single .select2-selection__arrow{top: 8px;}
+.select2-container--default .select2-selection--single {background-color: #fff;border: 1px solid #aaa;border-radius: 8px;padding: 7px;height: 45px !important;font-size: 13px;}
+
+.top-filter label{float: left; width: 100%; font-size: 13px;margin-bottom: 5px;text-transform: uppercase;}
+.page-content{background: #fff; padding: 2em; float: left; width: 100%;border-radius: 8px;}
+.page-content td, .page-content th{font-size: 14px;}
+.btn{font-weight: 500;font-size: 14px;}
+.btn-green{background: rgb(20, 123, 225); color: #fff;}
+.btn-sucsess{border: 1px solid rgb(20, 123, 225); color:rgb(20, 123, 225); background: rgb(89 199 153 / 20%);}
+.btn-fail{border: 1px solid #FF3F3F; color:#FF3F3F; background: rgb(255 63 63 / 20%);}
+.btn-pending{border: 1px solid #ffa800; color:#ffa800; background: rgb(255 168 0 / 20%);}
+.active>.page-link, .page-link.active{background: rgb(20, 123, 225) !important; border-color:rgb(20, 123, 225) !important;}
+.page-link{border-color:#454545 !important;color: #454545;}
+
+.form-box{width: 100%; float: left;}
+.form-box .form-control{border: 1px solid #aaa;border-radius: 8px;padding: 7px 10px;height: 45px !important;font-size: 13px;}
+.form-box label{float: left; width: 100%; font-size: 13px;margin-bottom: 5px;text-transform: uppercase;}
+.form-box select{width: 100%; float: left;padding: 10px; font-size: 13px;}
+.form-box .form-check{ float: left;width: 100%;}
+.form-box .form-check-input:checked{background-color:rgb(20, 123, 225) !important; border-color:rgba(138, 21, 56, 1) !important;}
+.form-box .form-check-input{margin-top: 2px;}
+.form-box textarea.form-control{height: 100px !Important; width: 100%; float:left;}
+
+.back-btn{background: #474747 !important; }
+
+.login-page{background:rgb(20, 123, 225);}
+.login-box{max-width: 400px;margin: 5% auto;text-align: center;background: #fff;padding: 2em;border-radius: 12px;}
+.login-box img{width:150px;}
+.login-box h2{text-transform:uppercase;font-weight:bold;}
+.login-box  .form-control{border: 1px solid #aaa;border-radius: 8px;padding: 7px 10px;height: 45px !important;font-size: 13px;}
+.login-box .btn{background: rgb(20, 123, 225); color: #fff;border:0px;}
+.login-box .checkbox{text-align:left;}
+.login-box .checkbox label{padding-left:0px;text-align:left;}
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+@media (min-width: 1600px) {
+ 
+}
+ 
+@media only screen and (min-width: 1600px) {
+
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1280px) {
+
+}
+@media only screen and (min-device-width: 800px) and (max-device-width: 1024px) {
+
+    
+}
+@media screen and (max-width: 773px) {
+    
+}
+
+
+@media screen and (max-width:667px) {
+    
+}
+
+@media screen and (max-width:480px) {
+
+}
+@media screen and (max-width:320px) {
+}
